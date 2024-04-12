@@ -6,5 +6,5 @@ for num in lista:
     else:
         counts[num] = 1
 max_count = max(counts.values())
-most_frequent_numbers = [num for num, count in counts.items() if count == max_count]
-print(most_frequent_numbers)
+frequencia = [num for num, count in counts.items() if count == max_count]
+print(frequencia)
